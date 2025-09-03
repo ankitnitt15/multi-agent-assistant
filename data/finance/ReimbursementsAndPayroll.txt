@@ -1,0 +1,22 @@
+Finance Policies
+
+1. Expense Reimbursements:
+   - Travel reimbursement: Flights and hotels must be booked via the company portal.
+   - Food allowance during business travel: ₹1,000 per day.
+   - Claims must be submitted within 30 days of expense.
+
+2. Payroll:
+   - Salaries are credited on the last working day of the month.
+   - Form-16 is available on the Finance portal every April.
+
+3. Training and Certification Reimbursement:
+   - Employees can claim up to ₹50,000 per year for skill development courses.
+   - Requires manager approval before enrollment.
+
+4. IT Asset Purchase:
+   - Personal purchase of IT equipment for work use (monitors, keyboards) can be reimbursed up to ₹10,000 per year.
+
+5. Finance Service Request SLAs:
+   - Reimbursement approval: 7 working days
+   - Payroll queries: 3 working days
+   - Tax queries: 5 working days

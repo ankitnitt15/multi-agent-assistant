@@ -1,0 +1,22 @@
+HR Policies
+
+1. Leave Policy:
+   - Annual leave entitlement: 24 days per year.
+   - Sick leave: 10 days per year. Requires medical certificate if more than 2 consecutive days.
+   - Unused leave can be carried forward up to 10 days.
+
+2. Public Holidays:
+   - Company observes 12 public holidays per calendar year, published on the HR portal.
+
+3. Work From Home:
+   - Employees may work remotely up to 2 days per week with manager approval.
+   - Exceptions can be made for medical reasons.
+
+4. Probation Policy:
+   - All new employees serve a 6-month probation.
+   - Confirmation after successful performance review.
+
+5. HR Service Request SLAs:
+   - Leave approval: 2 business days
+   - Policy clarification: 1 business day
+   - Relocation assistance: 5 business days

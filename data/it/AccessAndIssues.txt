@@ -1,0 +1,24 @@
+IT Service Guidelines
+
+1. Laptop Access:
+   - Standard laptops are provided to all employees on Day 1.
+   - Admin rights are not granted by default. To request elevated access, submit a ServiceNow request.
+
+2. Email & Collaboration Tools:
+   - Official email is hosted on Microsoft Outlook.
+   - Teams is the primary collaboration tool. Slack access is provided only for engineering teams.
+
+3. Password Policy:
+   - All passwords must be at least 12 characters.
+   - Must include 1 uppercase, 1 number, and 1 special character.
+   - Passwords expire every 90 days.
+
+4. Common Issues:
+   - VPN connection problems → Reset the GlobalProtect client and retry.
+   - Outlook not loading → Clear cached credentials in Windows Credential Manager.
+   - Lost laptop → Immediately report to IT Security via the Incident portal.
+
+5. Service Request SLAs:
+   - Password reset: 15 minutes
+   - Laptop replacement: 3 working days
+   - VPN access: 24 hours

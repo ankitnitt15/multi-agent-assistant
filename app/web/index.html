@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Virtual Multi‑Agent Assistant</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"/>
+  <link rel="icon" href="/assets/favicon.ico" sizes="any"/>
+  <link rel="stylesheet" href="/assets/styles.css"/>
+</head>
+<body>
+  <header class="banner">
+    <h1>Virtual Multi‑Agent Assistant</h1>
+    <p>HR • IT • Finance · RAG + Neo4j KAG · MCP Tools (tickets, policies, claims)</p>
+  </header>
+
+  <main class="chat">
+    <div id="messages" class="messages"></div>
+    <form id="chat-form" class="composer">
+      <input id="text" type="text" placeholder="Ask something… e.g., Create an IT ticket for VPN not working" autocomplete="off" required />
+      <select id="dept">
+        <option value="">Auto</option>
+        <option value="hr">HR</option>
+        <option value="it">IT</option>
+        <option value="finance">Finance</option>
+      </select>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>
