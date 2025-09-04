@@ -4,7 +4,7 @@ from typing import Optional
 DEPT_KEYWORDS = {
   'hr': ['leave', 'vacation', 'holiday', 'policy', 'payroll', 'reimbursement', 'benefit', 'attendance'],
   'it': ['laptop', 'password', 'vpn', 'access', 'email', 'wifi', 'printer', 'software', 'issue', 'restart', 'install'],
-  'finance': ['invoice', 'expense', 'reimbursement', 'budget', 'payroll', 'refund', 'payment']
+  'finance': ['invoice','expense','reimbursement','reimburse','claim','claims','travel','budget','payroll','refund','payment']
 }
 
 action_patterns = [

@@ -20,7 +20,7 @@ function addMessage(role, content, meta) {
     metaEl.className = 'meta';
     const badges = document.createElement('div');
     badges.className = 'badges';
-    if (meta.dept) badges.innerHTML += `<span class="badge">Dept: ${meta.dept}</span>`;
+    if (meta.dept) badges.innerHTML += `<span class="badge">Dept: ${meta.dept.toUpperCase()}</span>`;
     if (meta.action) badges.innerHTML += `<span class="badge">Action: ${meta.action}</span>`;
     if (meta.kag_hints && meta.kag_hints.length) badges.innerHTML += `<span class="badge">KAG: ${meta.kag_hints.join(' • ')}</span>`;
     metaEl.appendChild(badges);
