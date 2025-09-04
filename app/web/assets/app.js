@@ -20,7 +20,7 @@ function addMessage(role, content, meta) {
     metaEl.className = 'meta';
     const badges = document.createElement('div');
     badges.className = 'badges';
-    if (meta.dept) badges.innerHTML += `<span class="badge">Dept: ${meta.dept.toUpperCase()}</span>`;
+    if (meta.dept) badges.innerHTML += `<span class="badge">Dept: ${meta.dept}</span>`;
     if (meta.action) badges.innerHTML += `<span class="badge">Action: ${meta.action}</span>`;
     if (meta.kag_hints && meta.kag_hints.length) badges.innerHTML += `<span class="badge">KAG: ${meta.kag_hints.join(' • ')}</span>`;
     metaEl.appendChild(badges);
@@ -40,6 +40,10 @@ function formatAction(data) {
     const t = data.result;
     return `<div>Ticket created: <strong>${t.ticket_id}</strong><br/>Priority: ${t.priority || 'n/a'}<br/>Status: ${t.status}</div>`;
   }
+  if (data.action === 'recall_ticket' && data.result) {
+    const t = data.result;
+    return `<div>Last ticket: <strong>${t.ticket_id || 'n/a'}</strong><br/>Status: ${t.status || 'n/a'}</div>`;
+  }
   if (data.action === 'reset_password' && data.result) {
     const r = data.result;
     return `<div>Password reset initiated for <strong>${r.user}</strong> (${r.status}).</div>`;
@@ -47,6 +51,10 @@ function formatAction(data) {
   if (data.action === 'submit_claim' && data.result) {
     const c = data.result;
     return `<div>Claim submitted: <strong>${c.claim_id}</strong><br/>Status: ${c.status}</div>`;
+  }
+  if (data.action === 'recall_claim' && data.result) {
+    const c = data.result;
+    return `<div>Last claim: <strong>${c.claim_id || 'n/a'}</strong><br/>Status: ${c.status || 'n/a'}</div>`;
   }
   return null;
 }
