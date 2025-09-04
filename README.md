@@ -1,4 +1,4 @@
-# ITSM Multi-Agent Prototype (Local LLM via Ollama)
+# Virtual Multi-Agent Prototype (Local LLM via Ollama)
 
 ## Overview
 - Multi-agent prototype for ITSM (HR, IT, Finance)
